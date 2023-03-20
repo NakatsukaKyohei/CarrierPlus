@@ -7,7 +7,7 @@ import { Register } from './actions/proverb/Register';
 import { List } from './actions/proverb/List';
 import { Delete } from './actions/proverb/Delete';
 
-
-const actions: Action[] = [new Sindoi(), new General(), new Greeting(), new Register(), new List(), new Delete()];
+// const actions: Action[] = [new Sindoi(), new General(), new Greeting(), new Register(), new List(), new Delete()];
+const actions: Action[] = [new Sindoi(), new General(), new Delete()];
 
 Discord.shared.addActions(actions);
